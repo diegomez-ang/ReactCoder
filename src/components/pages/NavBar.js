@@ -1,7 +1,8 @@
 import react from 'react'
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBell, faBicycle, faCartPlus} from '@fortawesome/free-solid-svg-icons'
-import reactDom from 'react-dom';
+import {faBicycle} from '@fortawesome/free-solid-svg-icons'
+import CartWidget from './CartWidget'
+
 
 export default function NavBar(){
     return(
@@ -15,7 +16,7 @@ export default function NavBar(){
                     <li>Nosotros</li>
                     <li>Productos</li>
                     <li>Login</li>
-                    <li><FontAwesomeIcon icon={faCartPlus}/></li>
+                    <CartWidget/>
             </ul>
             </div>
         </section>        
