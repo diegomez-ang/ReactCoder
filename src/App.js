@@ -7,17 +7,20 @@ import FunctionalComponentStateExample from './components/pages/FunctionalCompon
 import ClassComponentLifeCycles from './components/pages/ClassComponentLifeCycles';
 import FunctionComponentLifeCycles from './components/pages/FunctionComponentLifeCycles';
 import ClickTracker from './components/pages/ClickTracker';
+import ItemCount from './components/pages/ItemCount';
 
 function App() {
   return ( //todo lo que pasa en el explorador sale de aqui
     <div className='container'>
       <NavBar/>    
       <ItemListcontainer/>        
-      <PropsExample/>
-      <FunctionalComponentStateExample/>
+      {/*<PropsExample/>*/}
+      {/*<FunctionalComponentStateExample/>*/}
       {/* <ClassComponentLifeCycles/> */}
-      <FunctionComponentLifeCycles/>
-      <ClickTracker/>
+      {/*<FunctionComponentLifeCycles/>*/}
+      {/*<ClickTracker/>*/}
+      <ItemCount/>
+
       
     </div>
     
